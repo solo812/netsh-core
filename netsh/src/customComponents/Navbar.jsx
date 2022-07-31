@@ -21,9 +21,13 @@ const Navbar = () => {
 
   return (
     <>
-            <Nav>
+          <Nav>
             <BarsOverlay>
               <CloseBars/>
+              <NavBtn>
+                <NavBtnLink2 to="/">Login</NavBtnLink2>
+                <NavBtnLink to="/">Get Started for Free</NavBtnLink>
+              </NavBtn>
             </BarsOverlay>
                 <NavLink to='/'>
                 <img
@@ -36,7 +40,7 @@ const Navbar = () => {
                   <NavBtnLink2 to="/">Login</NavBtnLink2>
                   <NavBtnLink to="/">Get Started for Free</NavBtnLink>
                 </NavBtn>
-            </Nav>
+          </Nav>
         </>
   )
 }
