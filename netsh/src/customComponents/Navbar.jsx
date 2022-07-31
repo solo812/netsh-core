@@ -16,7 +16,7 @@ const Navbar = () => {
   const [openHamburger, setOpenHamburger] = useState(false);
 
   const onHamburgerClicked = () => {
-    alert("Hey")
+    alert("Hjey")
   }
 
   return (
