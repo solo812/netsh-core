@@ -77,21 +77,22 @@ export const NavMenu = styled.div`
 
 export const NavBtn = styled.nav`
   display: flex;
-  flex-direction: column;
   gap: 20px;
   align-items: center;
   justify-content: flex-end;
   @media screen and (max-width: 768px) {
     justify-content: center;
     margin-top: 100px;
+    flex-direction: column;
+    display: none;
   }
 `;
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #21edbe;
+  background: #885AE0;
   padding: 10px 22px;
-  color: #1c5749;
+  color: #2D2046;
   outline: none;
   border: none;
   cursor: pointer;
@@ -107,6 +108,29 @@ export const NavBtnLink = styled(Link)`
     padding: 20px 0px;
     width: 650px;
     text-align: center;
+  }
+`;
+
+export const NavBtnLinkResp = styled(Link)`
+  border-radius: 4px;
+  background: #885AE0;
+  padding: 20px 0px;
+  width: 650px;
+  text-align: center;
+  color: #2D2046;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;
 
