@@ -116,8 +116,7 @@ PSTN Pin: ${pstn.dtmf}`)
     <View style={style.content} onLayout={onLayout}>
       <View style={style.leftContent}>
         <View>
-          <Text style={style.heading}>{$config.APP_NAME}</Text>
-          <Text style={style.headline}>{$config.LANDING_SUB_HEADING}</Text>
+          <Text style={style.headline}>Copy and share these links to invite people as attendees or a host</Text>
         </View>
         {hostControlCheckbox ? (
           <View style={style.urlContainer}>

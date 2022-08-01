@@ -2,6 +2,8 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+//box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 export const Nav = styled.nav`
   background: transparent;
   height: 60px;
@@ -9,7 +11,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 0.5rem 6rem;
   z-index: 10;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
   font-family: 'Nunito Sans', sans-serif;
 
   @media screen and (max-width: 768px) {
@@ -111,13 +113,15 @@ export const NavBtnLink = styled(Link)`
   }
 `;
 
-export const NavBtnLinkResp = styled(Link)`
-  border-radius: 4px;
+export const CreateMeetingBtn = styled.button`
+  border-radius: 6px;
   background: #885AE0;
-  padding: 20px 0px;
-  width: 650px;
+  padding: 10px 40px;
   text-align: center;
-  color: #2D2046;
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
   outline: none;
   border: none;
   cursor: pointer;
@@ -127,10 +131,6 @@ export const NavBtnLinkResp = styled(Link)`
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
-  }
-
-  @media screen and (max-width: 768px) {
-    display: none;
   }
 `;
 

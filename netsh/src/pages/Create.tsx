@@ -35,6 +35,7 @@ import Error from '../subComponents/Error';
 import Toast from '../../react-native-toast-message';
 import hasBrandLogo from '../utils/hasBrandLogo';
 import Navbar from '../customComponents/Navbar';
+import { CreateMeetingBtn } from '../customComponents/NavbarElements';
 
 type PasswordInput = {
   host: string;
@@ -138,15 +139,26 @@ const Create = () => {
       {!roomCreated ? (
         <View style={style.content} onLayout={onLayout}>
           <View style={style.leftContent}>
-            <Text style={style.heading}>{$config.APP_NAME}</Text>
-            <Text style={style.headline}>{$config.LANDING_SUB_HEADING}</Text>
+            <Text style={style.heading}>A fast and secure way of connecting and<br/> collaborating on video</Text>
+            <Text style={style.headline}>Netsh is an end-to-end encrypted video conferencing<br/> platform that enables simple, fast and secure video meetings</Text>
             <View style={style.inputs}>
+              
+              <View style={{ display: "flex", flexDirection: "row",}}>
               <TextInput
+                style={style.CreateMeetingInput}
                 value={roomTitle}
                 onChangeText={(text) => onChangeRoomTitle(text)}
                 onSubmitEditing={() => createRoom()}
                 placeholder="Name your meeting"
               />
+
+              
+                <CreateMeetingBtn
+                  disabled={roomTitle === '' || loading}
+                  onClick={() => createRoom()}
+                  text={loading ? 'Loading...' : 'Create Meeting'}
+                >{loading ? 'Loading...' : 'Create Meeting'}</CreateMeetingBtn>
+                </View>
               <View style={{paddingVertical: 10}}>
                 <View style={style.checkboxHolder}>
                   {$config.EVENT_MODE ? (
@@ -178,12 +190,10 @@ const Create = () => {
                   <></>
                 )}
               </View>
+              <View>
+                This is where the Image goes
+              </View>
               <View style={style.btnContainer}>
-                <PrimaryButton
-                  disabled={roomTitle === '' || loading}
-                  onPress={() => createRoom()}
-                  text={loading ? 'Loading...' : 'Create Meeting'}
-                />
                 <HorizontalRule />
                 <SecondaryButton
                   onPress={() => history.push('/join')}
@@ -231,7 +241,7 @@ const style = StyleSheet.create({
     marginHorizontal: 'auto',
   },
   heading: {
-    fontSize: 32,
+    fontSize: 40,
     fontWeight: '700',
     textAlign: 'center',
     color: $config.PRIMARY_FONT_COLOR,
@@ -241,7 +251,7 @@ const style = StyleSheet.create({
     fontSize: 18,
     fontWeight: '400',
     textAlign: 'center',
-    color: $config.PRIMARY_FONT_COLOR,
+    color: "white",
     marginBottom: 40,
   },
   inputs: {
@@ -308,6 +318,11 @@ const style = StyleSheet.create({
   btnContainer: {
     width: '100%',
     alignItems: 'center',
+  },
+  CreateMeetingInput: {
+    borderRadius: '6px',
+    width: "450px",
+    
   },
 });
 
