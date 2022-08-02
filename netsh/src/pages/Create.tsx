@@ -35,7 +35,8 @@ import Error from '../subComponents/Error';
 import Toast from '../../react-native-toast-message';
 import hasBrandLogo from '../utils/hasBrandLogo';
 import Navbar from '../customComponents/Navbar';
-import { CreateMeetingBtn } from '../customComponents/NavbarElements';
+import { CreateMeetingBtn } from '../customComponents/StyledElements';
+import Footer from '../customComponents/Footer';
 
 type PasswordInput = {
   host: string;
@@ -200,6 +201,7 @@ const Create = () => {
                   text={'Have a Meeting ID?'}
                 />
               </View>
+              <Footer/>
             </View>
           </View>
         </View>

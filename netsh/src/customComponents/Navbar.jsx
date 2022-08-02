@@ -9,7 +9,7 @@ import {
   NavBtnLink2,
   BarsOverlay,
   CloseBars,
-} from './NavbarElements';
+} from './StyledElements';
 import netshLogo from '../assets/netshLogo.png'
 
 const Navbar = () => {
