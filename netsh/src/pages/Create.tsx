@@ -38,6 +38,7 @@ import Navbar from '../customComponents/Navbar';
 import { CreateMeetingBtn, JoinMeetingBtn } from '../customComponents/StyledElements';
 import Footer from '../customComponents/Footer';
 import nPreview from '../assets/nPreview.png';
+import Features from '../customComponents/Features';
 
 type PasswordInput = {
   host: string;
@@ -206,6 +207,7 @@ const Create = () => {
                     style={{  height: "500px", borderRadius: "10px", boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px" }}/>
                 </div>
               </View>
+              <Features/>
               <Footer/>
             </View>
           </View>

@@ -177,3 +177,11 @@ export const NavBtnLink2 = styled(Link)`
     border: white 3px solid;
   }
 `;
+
+/// FEATURES SECTION
+export const FeatureItem = styled.div`
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+`;
