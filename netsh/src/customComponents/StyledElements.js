@@ -213,4 +213,4 @@ export const AroundDiv = styled.div`
     flex-direction: column;
     gap: 100px;
   }
-`
+`;
