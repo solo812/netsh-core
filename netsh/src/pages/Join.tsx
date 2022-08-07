@@ -26,6 +26,7 @@ import HorizontalRule from '../atoms/HorizontalRule';
 import TextInput from '../atoms/TextInput';
 import Error from '../subComponents/Error';
 import shouldAuthenticate from '../utils/shouldAuthenticate';
+import { CreateMeetingBtn, JoinMeetingBtn } from '../customComponents/StyledElements';
 // const joinFlag = 0;
 interface joinProps {
   phrase: string;
@@ -58,14 +59,9 @@ const Join = (props: joinProps) => {
 
   return (
     <ScrollView contentContainerStyle={style.main}>
-      <View style={style.nav}>
-        {hasBrandLogo && <Logo />}
-        {error ? <Error error={error} /> : <></>}
-      </View>
       <View style={style.content}>
         <View style={style.leftContent}>
-          <Text style={style.heading}>{$config.APP_NAME}</Text>
-          <Text style={style.headline}>{$config.LANDING_SUB_HEADING}</Text>
+          <Text style={style.headline}>Put in your meeting ID to join in as an attendee</Text>
           <View style={style.inputs}>
             <TextInput
               value={phrase}
@@ -74,16 +70,18 @@ const Join = (props: joinProps) => {
               placeholder="Enter Meeting ID"
             />
             <View style={{height: 10}} />
-            <PrimaryButton
+            <CreateMeetingBtn
               disabled={phrase === ''}
-              onPress={() => startCall()}
-              text={'Enter Meeting'}
-            />
-            <HorizontalRule />
-            <SecondaryButton
-              onPress={() => createMeeting()}
+              onClick={() => startCall()}
+              text={'Enter Meeting'}>
+                Enter Meeting
+              </CreateMeetingBtn>
+            <JoinMeetingBtn
+              onClick={() => createMeeting()}
               text={'Create a meeting'}
-            />
+            >
+              Create meeting
+            </JoinMeetingBtn>
             {shouldAuthenticate ? (
               <LogoutButton setError={setError} /> //setError not available in logout?
             ) : (
