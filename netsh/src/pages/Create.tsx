@@ -35,8 +35,9 @@ import Error from '../subComponents/Error';
 import Toast from '../../react-native-toast-message';
 import hasBrandLogo from '../utils/hasBrandLogo';
 import Navbar from '../customComponents/Navbar';
-import { CreateMeetingBtn } from '../customComponents/StyledElements';
+import { CreateMeetingBtn, JoinMeetingBtn } from '../customComponents/StyledElements';
 import Footer from '../customComponents/Footer';
+import nPreview from '../assets/nPreview.png';
 
 type PasswordInput = {
   host: string;
@@ -160,6 +161,13 @@ const Create = () => {
                   text={loading ? 'Loading...' : 'Create Meeting'}
                 >{loading ? 'Loading...' : 'Create Meeting'}</CreateMeetingBtn>
                 </View>
+                <View style={style.btnContainer}>
+                <HorizontalRule />
+                <JoinMeetingBtn
+                  onClick={() => history.push('/join')}
+                  text={'Already have a Meeting ID?'}
+                >Already have a Meeting ID?</JoinMeetingBtn>
+              </View>
               <View style={{paddingVertical: 10}}>
                 <View style={style.checkboxHolder}>
                   {$config.EVENT_MODE ? (
@@ -191,15 +199,12 @@ const Create = () => {
                   <></>
                 )}
               </View>
-              <View>
-                This is where the Image goes
-              </View>
-              <View style={style.btnContainer}>
-                <HorizontalRule />
-                <SecondaryButton
-                  onPress={() => history.push('/join')}
-                  text={'Have a Meeting ID?'}
-                />
+              <View style={{ marginTop: "10px", marginBottom: "100px", }}>
+                <div>
+                  <img
+                    src={nPreview}
+                    style={{  height: "500px", borderRadius: "10px", boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px" }}/>
+                </div>
               </View>
               <Footer/>
             </View>
@@ -233,7 +238,7 @@ const style = StyleSheet.create({
     alignSelf: 'center',
     justifyContent: 'center',
   },
-  content: {flex: 6, flexDirection: 'row'},
+  content: {flexDirection: 'row', display: "flex", marginTop: "100px",},
   leftContent: {
     width: '100%',
     flex: 1,

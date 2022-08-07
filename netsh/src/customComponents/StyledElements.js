@@ -134,6 +134,26 @@ export const CreateMeetingBtn = styled.button`
   }
 `;
 
+export const JoinMeetingBtn = styled.button`
+  border-radius: 6px;
+  background: #39285A;
+  padding: 10px 40px;
+  text-align: center;
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    opacity: 0.7;
+  }
+`;
+
 export const NavBtnLink2 = styled(Link)`
   border-radius: 4px;
   background: transparent;
