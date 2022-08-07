@@ -1,11 +1,11 @@
 import React from 'react';
-import { FeatureItem } from "../customComponents/StyledElements";
+import { FeatureItem, FeaturesDiv, } from "./StyledElements";
 import image1 from '../assets/google.png';
 
-function Features() {
+const Features = () => {
   return (
     <>
-        <div style={{ display: "flex", gap: "60px",}}>
+        <FeaturesDiv>
             <FeatureItem>
                 <img
                     src={image1}
@@ -17,24 +17,24 @@ function Features() {
                 <img
                     src={image1}
                     style={{ marginBottom: "20px", width: "100px", }}/>
-                <h2>Connection made simple</h2><br/>
-                <p>Video calls with easy viewing <br/> and adaptive layouts help people<br/> stay engaged and connected.</p>
+                <h2>Easily jump on calls</h2><br/>
+                <p>Easily hop on a call and<br/> invite friends and attendess in seconds<br/> with your unique room link.</p>
             </FeatureItem>
             <FeatureItem>
                 <img
                     src={image1}
                     style={{ marginBottom: "20px", width: "100px", }}/>
-                <h2>Connection made simple</h2><br/>
-                <p>Video calls with easy viewing <br/> and adaptive layouts help people<br/> stay engaged and connected.</p>
+                <h2>Share your screen</h2><br/>
+                <p>Share your entire screen or just<br/> a tab to present, pitch decks, spreadsheets,<br/> product demos, and much more!</p>
             </FeatureItem>
             <FeatureItem>
                 <img
                     src={image1}
                     style={{ marginBottom: "20px", width: "100px", }}/>
-                <h2>Connection made simple</h2><br/>
-                <p>Video calls with easy viewing <br/> and adaptive layouts help people<br/> stay engaged and connected.</p>
+                <h2>Keep your meetings safe</h2><br/>
+                <p>Meetings are locked by default.<br/> You control who joins; only approved<br/> attendees can join.</p>
             </FeatureItem>
-        </div>
+        </FeaturesDiv>
     </>
   )
 }

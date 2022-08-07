@@ -136,7 +136,7 @@ export const CreateMeetingBtn = styled.button`
 
 export const JoinMeetingBtn = styled.button`
   border-radius: 6px;
-  background: #39285A;
+  background: #5B3175;
   padding: 10px 40px;
   text-align: center;
   margin-left: 15px;
@@ -179,9 +179,38 @@ export const NavBtnLink2 = styled(Link)`
 `;
 
 /// FEATURES SECTION
+export const FeaturesDiv = styled.div`
+  display: flex;
+  gap: 60px;
+  
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+`;
+
 export const FeatureItem = styled.div`
   font-family: 'Nunito Sans', sans-serif;
   text-align: center;
   color: #fff;
   margin-bottom: 50px;
 `;
+
+export const AroundDiv = styled.div`
+  font-family: 'Nunito Sans', sans-serif;
+  color: #fff;
+  background-color: #5B3175;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 6px;
+  width: 95%;
+  padding: 50px 0px;
+  height: auto;
+  margin: 50px 0px;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+`

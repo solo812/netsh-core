@@ -39,6 +39,7 @@ import { CreateMeetingBtn, JoinMeetingBtn } from '../customComponents/StyledElem
 import Footer from '../customComponents/Footer';
 import nPreview from '../assets/nPreview.png';
 import Features from '../customComponents/Features';
+import JustTry from '../customComponents/JustTry';
 
 type PasswordInput = {
   host: string;
@@ -208,6 +209,7 @@ const Create = () => {
                 </div>
               </View>
               <Features/>
+              <JustTry/>
               <Footer/>
             </View>
           </View>
