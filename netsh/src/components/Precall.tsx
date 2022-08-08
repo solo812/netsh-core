@@ -127,7 +127,6 @@ const Precall = (props: any) => {
 
   const brandHolder = () => (
     <View style={style.nav}>
-      {hasBrandLogo && <Logo />}
       {error && <Error error={error} showBack={true} />}
     </View>
   );
