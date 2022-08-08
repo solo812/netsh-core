@@ -80,7 +80,7 @@ const Join = (props: joinProps) => {
               onClick={() => createMeeting()}
               text={'Create a meeting'}
             >
-              Create meeting
+              Create a meeting
             </JoinMeetingBtn>
             {shouldAuthenticate ? (
               <LogoutButton setError={setError} /> //setError not available in logout?

@@ -182,6 +182,7 @@ export const NavBtnLink2 = styled(Link)`
 export const FeaturesDiv = styled.div`
   display: flex;
   gap: 60px;
+  margin: 100px 0px;
   
   @media screen and (max-width: 768px) {
     display: flex;
