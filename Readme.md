@@ -19,3 +19,4 @@ The core production build of Netsh can easily be deployed to other hosting servi
 
 
 ### License
+This project is under license of the GNU General Public License V3.0
