@@ -1,14 +1,4 @@
-/*
-********************************************
- Copyright © 2021 Agora Lab, Inc., all rights reserved.
- AppBuilder and all associated components, source code, APIs, services, and documentation
- (the “Materials”) are owned by Agora Lab, Inc. and its licensors. The Materials may not be
- accessed, used, modified, or distributed for any purpose without a license from Agora Lab, Inc.
- Use without a license or in violation of any license terms and conditions (including use for
- any purpose competitive to Agora Lab, Inc.’s business) is strictly prohibited. For more
- information visit https://appbuilder.agora.io.
-*********************************************
-*/
+
 import React, {useState, useContext, useEffect} from 'react';
 import {View, Text, StyleSheet, Dimensions, Platform} from 'react-native';
 import TextInput from '../atoms/TextInput';
@@ -23,8 +13,6 @@ import {
   ClientRole,
 } from '../../agora-rn-uikit';
 import SelectDevice from '../subComponents/SelectDevice';
-import Logo from '../subComponents/Logo';
-import hasBrandLogo from '../utils/hasBrandLogo';
 import ColorContext from './ColorContext';
 import Error from '../subComponents/Error';
 import {useWakeLock} from '../components/useWakeLock';
@@ -145,13 +133,11 @@ const Precall = (props: any) => {
       {/* Precall screen only changes for audience in Live Stream event */}
       {$config.EVENT_MODE && rtcProps.role == ClientRole.Audience ? (
         <View style={style.preCallContainer}>
-          {brandHolder()}
           {meetingTitle()}
           <JoinRoomInputView {...props} buttonText={buttonText} />
         </View>
       ) : (
         <>
-          {brandHolder()}
           <View style={style.content}>
             <View style={style.upperContainer}>
               <View

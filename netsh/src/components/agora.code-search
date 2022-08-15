@@ -1,0 +1,1232 @@
+# Query: agora
+# ContextLines: 1
+
+974 results - 158 files
+
+package-lock.json:
+     1  {
+     2:   "name": "agora-app-builder",
+     3    "version": "1.0.0",
+
+     7      "": {
+     8:       "name": "agora-app-builder",
+     9        "version": "1.0.0",
+
+    11        "dependencies": {
+    12:         "agora-app-builder-cli": "1.3.0"
+    13        }
+
+   243      },
+   244:     "node_modules/agora-app-builder-cli": {
+   245        "version": "1.3.0",
+   246:       "resolved": "https://registry.npmjs.org/agora-app-builder-cli/-/agora-app-builder-cli-1.3.0.tgz",
+   247        "integrity": "sha512-ud58Dx9Tqd07EWciRYRxWqlg7wc+mxL41DbbvzcPhZyWZtKVehzPdusbCORzXRiH+KVHbwjuEsw6BoGSTLRvjA==",
+
+   272        "bin": {
+   273:         "agora-app-builder-cli": "dist/cli.js"
+   274        },
+
+  3674      },
+  3675:     "agora-app-builder-cli": {
+  3676        "version": "1.3.0",
+  3677:       "resolved": "https://registry.npmjs.org/agora-app-builder-cli/-/agora-app-builder-cli-1.3.0.tgz",
+  3678        "integrity": "sha512-ud58Dx9Tqd07EWciRYRxWqlg7wc+mxL41DbbvzcPhZyWZtKVehzPdusbCORzXRiH+KVHbwjuEsw6BoGSTLRvjA==",
+
+package.json:
+   1  {
+   2:   "name": "agora-app-builder",
+   3    "version": "1.0.0",
+   4    "scripts": {
+   5:     "start": "agora-app-builder-cli",
+   6:     "start:info": "agora-app-builder-cli --info"
+   7    },
+
+  10    "dependencies": {
+  11:     "agora-app-builder-cli": "1.3.0"
+  12    }
+
+netsh\_package-lock.json:
+   4774      },
+   4775:     "agora-react-native-rtm": {
+   4776        "version": "1.5.0",
+   4777:       "resolved": "https://registry.npmjs.org/agora-react-native-rtm/-/agora-react-native-rtm-1.5.0.tgz",
+   4778        "integrity": "sha512-8LApJVTK21a6/JkOPwzkatrFrcvD/t4WUJNdc55BybBadrlSSE1yzz/1Ts/8tHVdzsX9Pya9pjMZ+UQBGovong=="
+   4779      },
+   4780:     "agora-rtc-sdk-ng": {
+   4781        "version": "4.12.0",
+   4782:       "resolved": "https://registry.npmjs.org/agora-rtc-sdk-ng/-/agora-rtc-sdk-ng-4.12.0.tgz",
+   4783        "integrity": "sha512-lKL6PTw6PPzIX52Eq7Awq+oQdZR5y2DnA9RIpD+Gv+Srr5JsrCbh7eA+9KrOnncEPGOlraz/Phx3GZuGyFAMPA==",
+   4784        "requires": {
+   4785:         "agora-rte-extension": "^1.0.22"
+   4786        }
+   4787      },
+   4788:     "agora-rte-extension": {
+   4789        "version": "1.0.23",
+   4790:       "resolved": "https://registry.npmjs.org/agora-rte-extension/-/agora-rte-extension-1.0.23.tgz",
+   4791        "integrity": "sha512-X2cGBg+L5ZJIFU91qvMASvRsBfg1HXTktVG3YROw9wxHsILSI7jgF9R9XraLc3fNX/UjovaYAlUW+hiJe0v6Xw=="
+   4792      },
+   4793:     "agora-rtm-sdk": {
+   4794        "version": "1.4.4",
+   4795:       "resolved": "https://registry.npmjs.org/agora-rtm-sdk/-/agora-rtm-sdk-1.4.4.tgz",
+   4796        "integrity": "sha512-Cks9kOJQ94HNle6s9mRqozf8VEwQD2WDrjJyA30rV3odBJ1UUDsASE5AItdr0znD8RDx0D7V+vpI9A9VQzmgvw=="
+
+  18681      },
+  18682:     "react-native-agora": {
+  18683        "version": "3.4.2",
+  18684:       "resolved": "https://registry.npmjs.org/react-native-agora/-/react-native-agora-3.4.2.tgz",
+  18685        "integrity": "sha512-zY2BIDCG9vEGQMW9oggsom9XHZJqETG/nafLsZx4z52TzHw9bipNypL/jXpE50Ofg+bS9YKYJaSZGy8M9dgKSA=="
+
+netsh\.eslintrc.js:
+  2  
+
+netsh\.gitignore:
+  65  #UI Kit
+  66: agora-rn-uikit/
+  67  
+
+netsh\.prettierrc.js:
+  2  
+
+netsh\babel.config.js:
+  2  
+
+netsh\configTransform.js:
+  2  
+
+netsh\electron-builder.js:
+   2  
+
+  35          provider: "github",
+  36:         owner: "AgoraIO-Community",
+  37          repo: "app-builder-core"
+
+netsh\global.d.ts:
+  2  
+
+netsh\Gulpfile.js:
+   2  
+
+  76      // dependencies: natives,
+  77:     // agora_electron: {
+  78      //   electron_version: '5.0.8',
+
+netsh\index.js:
+  2  
+
+netsh\index.web.js:
+  2  
+
+netsh\licencing.txt:
+  2  
+
+netsh\metro.config.js:
+  2  
+
+netsh\nativeDeps.js:
+   2  
+
+  14  module.exports.default = [];
+  15: //   os.platform() !== 'linux' ? 'agora-electron-sdk' : false,
+  16  // ].filter(Boolean);
+
+netsh\notarize.js:
+  2  
+
+netsh\package-lock.json:
+     17          "@sentry/tracing": "6.2.1",
+     18:         "agora-react-native-rtm": "1.5.0",
+     19:         "agora-rtc-sdk-ng": "4.12.0",
+     20:         "agora-rtm-sdk": "1.4.4",
+     21          "electron-log": "4.3.5",
+
+     30          "react-native": "0.63.3",
+     31:         "react-native-agora": "3.4.2",
+     32          "react-native-hyperlink": "0.0.19",
+
+   6391      },
+   6392:     "node_modules/agora-react-native-rtm": {
+   6393        "version": "1.5.0",
+   6394:       "resolved": "https://registry.npmjs.org/agora-react-native-rtm/-/agora-react-native-rtm-1.5.0.tgz",
+   6395        "integrity": "sha512-8LApJVTK21a6/JkOPwzkatrFrcvD/t4WUJNdc55BybBadrlSSE1yzz/1Ts/8tHVdzsX9Pya9pjMZ+UQBGovong==",
+
+   6400      },
+   6401:     "node_modules/agora-rtc-sdk-ng": {
+   6402        "version": "4.12.0",
+   6403:       "resolved": "https://registry.npmjs.org/agora-rtc-sdk-ng/-/agora-rtc-sdk-ng-4.12.0.tgz",
+   6404        "integrity": "sha512-lKL6PTw6PPzIX52Eq7Awq+oQdZR5y2DnA9RIpD+Gv+Srr5JsrCbh7eA+9KrOnncEPGOlraz/Phx3GZuGyFAMPA==",
+   6405        "dependencies": {
+   6406:         "agora-rte-extension": "^1.0.22"
+   6407        }
+   6408      },
+   6409:     "node_modules/agora-rte-extension": {
+   6410        "version": "1.0.23",
+   6411:       "resolved": "https://registry.npmjs.org/agora-rte-extension/-/agora-rte-extension-1.0.23.tgz",
+   6412        "integrity": "sha512-X2cGBg+L5ZJIFU91qvMASvRsBfg1HXTktVG3YROw9wxHsILSI7jgF9R9XraLc3fNX/UjovaYAlUW+hiJe0v6Xw=="
+   6413      },
+   6414:     "node_modules/agora-rtm-sdk": {
+   6415        "version": "1.4.4",
+   6416:       "resolved": "https://registry.npmjs.org/agora-rtm-sdk/-/agora-rtm-sdk-1.4.4.tgz",
+   6417        "integrity": "sha512-Cks9kOJQ94HNle6s9mRqozf8VEwQD2WDrjJyA30rV3odBJ1UUDsASE5AItdr0znD8RDx0D7V+vpI9A9VQzmgvw=="
+
+  23749      },
+  23750:     "node_modules/react-native-agora": {
+  23751        "version": "3.4.2",
+  23752:       "resolved": "https://registry.npmjs.org/react-native-agora/-/react-native-agora-3.4.2.tgz",
+  23753        "integrity": "sha512-zY2BIDCG9vEGQMW9oggsom9XHZJqETG/nafLsZx4z52TzHw9bipNypL/jXpE50Ofg+bS9YKYJaSZGy8M9dgKSA==",
+
+  34236      },
+  34237:     "agora-react-native-rtm": {
+  34238        "version": "1.5.0",
+  34239:       "resolved": "https://registry.npmjs.org/agora-react-native-rtm/-/agora-react-native-rtm-1.5.0.tgz",
+  34240        "integrity": "sha512-8LApJVTK21a6/JkOPwzkatrFrcvD/t4WUJNdc55BybBadrlSSE1yzz/1Ts/8tHVdzsX9Pya9pjMZ+UQBGovong==",
+
+  34242      },
+  34243:     "agora-rtc-sdk-ng": {
+  34244        "version": "4.12.0",
+  34245:       "resolved": "https://registry.npmjs.org/agora-rtc-sdk-ng/-/agora-rtc-sdk-ng-4.12.0.tgz",
+  34246        "integrity": "sha512-lKL6PTw6PPzIX52Eq7Awq+oQdZR5y2DnA9RIpD+Gv+Srr5JsrCbh7eA+9KrOnncEPGOlraz/Phx3GZuGyFAMPA==",
+  34247        "requires": {
+  34248:         "agora-rte-extension": "^1.0.22"
+  34249        }
+  34250      },
+  34251:     "agora-rte-extension": {
+  34252        "version": "1.0.23",
+  34253:       "resolved": "https://registry.npmjs.org/agora-rte-extension/-/agora-rte-extension-1.0.23.tgz",
+  34254        "integrity": "sha512-X2cGBg+L5ZJIFU91qvMASvRsBfg1HXTktVG3YROw9wxHsILSI7jgF9R9XraLc3fNX/UjovaYAlUW+hiJe0v6Xw=="
+  34255      },
+  34256:     "agora-rtm-sdk": {
+  34257        "version": "1.4.4",
+  34258:       "resolved": "https://registry.npmjs.org/agora-rtm-sdk/-/agora-rtm-sdk-1.4.4.tgz",
+  34259        "integrity": "sha512-Cks9kOJQ94HNle6s9mRqozf8VEwQD2WDrjJyA30rV3odBJ1UUDsASE5AItdr0znD8RDx0D7V+vpI9A9VQzmgvw=="
+
+  48192      },
+  48193:     "react-native-agora": {
+  48194        "version": "3.4.2",
+  48195:       "resolved": "https://registry.npmjs.org/react-native-agora/-/react-native-agora-3.4.2.tgz",
+  48196        "integrity": "sha512-zY2BIDCG9vEGQMW9oggsom9XHZJqETG/nafLsZx4z52TzHw9bipNypL/jXpE50Ofg+bS9YKYJaSZGy8M9dgKSA==",
+
+netsh\package.json:
+  33        "provider": "github",
+  34:       "owner": "AgoraIO-Community",
+  35        "repo": "app-builder-core"
+
+  39      "type": "git",
+  40:     "url": "https://github.com/AgoraIO-Community/app-builder-core"
+  41    },
+
+  49      "@sentry/tracing": "6.2.1",
+  50:     "agora-react-native-rtm": "1.5.0",
+  51:     "agora-rtc-sdk-ng": "4.12.0",
+  52:     "agora-rtm-sdk": "1.4.4",
+  53      "electron-log": "4.3.5",
+
+  62      "react-native": "0.63.3",
+  63:     "react-native-agora": "3.4.2",
+  64      "react-native-hyperlink": "0.0.19",
+
+netsh\webpack.commons.js:
+   2  
+
+  41        // Using rtm bridge to translate React Native RTM SDK calls to web SDK calls
+  42:       'agora-react-native-rtm': path.join(__dirname, 'bridge/rtm/web/index.ts'),
+  43        // Using rtc bridge to translate React Native RTC SDK calls to web SDK calls for web and linux
+  44        // Using rtc bridge to translate React Native RTC SDK calls to electron SDK calls for windows and mac
+  45:       'react-native-agora$': path.join(__dirname, 'bridge/rtc/webNg/index.ts'),
+  46      },
+
+netsh\webpack.main.config.js:
+  2  
+
+netsh\webpack.renderer.config.js:
+   2  
+
+  30    // externals: {
+  31:   //   'agora-electron-sdk': 'commonjs2 agora-electron-sdk',
+  32    // },
+
+netsh\webpack.web.config.js:
+  2  
+
+netsh\bridge\rtc\quality.tsx:
+  2  
+
+netsh\bridge\rtc\webNg\index.ts:
+  2  
+
+netsh\bridge\rtc\webNg\LocalView.tsx:
+  2  
+
+netsh\bridge\rtc\webNg\RtcEngine.ts:
+    2  
+   11  */
+   12: import AgoraRTC, {
+   13:   IAgoraRTCClient,
+   14    ILocalAudioTrack,
+
+   24    ClientRoleOptions,
+   25: } from 'agora-rtc-sdk-ng';
+   26  import type {
+
+   28    Subscription,
+   29: } from 'react-native-agora/lib/typescript/src/common/RtcEvents';
+   30  import {VideoProfile} from '../quality';
+   31: import {ChannelProfile, ClientRole} from '../../../agora-rn-uikit';
+   32  import {role, mode} from './Types';
+
+  138  if (GEO_FENCING) {
+  139:   AgoraRTC.setArea({
+  140      areaCode: AREAS.GLOBAL,
+
+  145  if (LOG_ENABLED) {
+  146:   AgoraRTC.setLogLevel(0);
+  147:   AgoraRTC.enableLogUpload();
+  148  } else {
+  149:   AgoraRTC.disableLogUpload();
+  150  }
+
+  153    public appId: string;
+  154:   // public AgoraRTC: any;
+  155:   public client: any | IAgoraRTCClient;
+  156:   public screenClient: any | IAgoraRTCClient;
+  157    public eventsMap = new Map<string, callbackType>([
+
+  188      this.appId = appId;
+  189:     // this.AgoraRTC = AgoraRTC;
+  190    }
+
+  204        let [localAudio, localVideo] =
+  205:         await AgoraRTC.createMicrophoneAndCameraTracks(
+  206            {},
+
+  214        try {
+  215:         let localAudio = await AgoraRTC.createMicrophoneAudioTrack({});
+  216          this.localStream.audio = localAudio;
+
+  220        try {
+  221:         let localVideo = await AgoraRTC.createCameraVideoTrack({
+  222            encoderConfig: this.videoProfile,
+
+  280    ): Promise<void> {
+  281:     // TODO create agora client here
+  282      this.client.on('user-joined', (user) => {
+
+  548    ): Promise<Array<MediaDeviceInfo>> {
+  549:     const devices: Array<MediaDeviceInfo> = await AgoraRTC.getDevices(true);
+  550      callback && callback(devices);
+
+  555      try {
+  556:       this.client = AgoraRTC.createClient({
+  557          codec: 'vp8',
+
+  560        });
+  561:       this.screenClient = AgoraRTC.createClient({
+  562          codec: 'vp8',
+
+  606      try {
+  607:       const devices = await AgoraRTC.getDevices(true);
+  608        for (let i = 0; i < devices.length; i++) {
+
+  772      appId: string,
+  773:     engine: typeof AgoraRTC,
+  774      encryption: {
+
+  800  
+  801:         const screenTracks = await AgoraRTC.createScreenVideoTrack(
+  802            config,
+
+netsh\bridge\rtc\webNg\SurfaceView.tsx:
+   2  
+  11  */
+  12: import {ILocalVideoTrack, IRemoteVideoTrack} from 'agora-rtc-sdk-ng';
+  13  import React, {useEffect} from 'react';
+  14  import {StyleProp, StyleSheet, ViewProps, ViewStyle} from 'react-native';
+  15: import {VideoMirrorMode, VideoRenderMode} from 'react-native-agora';
+  16  
+
+netsh\bridge\rtc\webNg\Types.ts:
+  2  
+
+netsh\bridge\rtm\web\index.ts:
+
+   16    Subscription,
+   17: } from 'agora-react-native-rtm';
+   18: import {RtmClientEvents} from 'agora-react-native-rtm/lib/typescript/src/RtmEngine';
+   19: import AgoraRTM, {VERSION} from 'agora-rtm-sdk';
+   20  
+
+   93      this.appId = APP_ID;
+   94:     this.client = AgoraRTM.createInstance(this.appId);
+   95  
+
+  411  
+  412:   async sendMessageToPeer(AgoraPeerMessage: {
+  413      peerId: string;
+
+  417      return this.client.sendMessageToPeer(
+  418:       {text: AgoraPeerMessage.text},
+  419:       AgoraPeerMessage.peerId,
+  420      );
+
+netsh\src\App.tsx:
+  2  
+
+netsh\src\atoms\HorizontalRule.tsx:
+  2  
+
+netsh\src\atoms\PrimaryButton.tsx:
+  2  
+
+netsh\src\atoms\SecondaryButton.tsx:
+  2  
+
+netsh\src\atoms\TextInput.tsx:
+  2  
+
+netsh\src\components\Chat.tsx:
+  2  
+
+netsh\src\components\ChatContext.ts:
+   2  
+  11  */
+  12: import RtmEngine, {RtmAttribute} from 'agora-react-native-rtm';
+  13  import {createContext} from 'react';
+
+netsh\src\components\ColorConfigure.tsx:
+  2  
+
+netsh\src\components\ColorContext.ts:
+  2  
+
+netsh\src\components\Controls.native.tsx:
+   2  
+
+  20  } from 'react-native';
+  21: import {LocalUserContext} from '../../agora-rn-uikit';
+  22  import {
+
+  28    ClientRole,
+  29: } from '../../agora-rn-uikit';
+  30  import Recording from '../subComponents/Recording';
+
+netsh\src\components\Controls.tsx:
+   2  
+
+  13  import {View, Dimensions, Platform, StyleSheet} from 'react-native';
+  14: import {LocalUserContext} from '../../agora-rn-uikit';
+  15  import {
+
+  19    PropsContext,
+  20: } from '../../agora-rn-uikit';
+  21  import Recording from '../subComponents/Recording';
+
+  25  import mobileAndTabletCheck from '../utils/mobileWebTest';
+  26: import {ClientRole} from '../../agora-rn-uikit';
+  27  import LiveStreamControls from './livestream/views/LiveStreamControls';
+
+netsh\src\components\DeviceConfigure.native.tsx:
+   2  
+
+  13  import KeepAwake from 'react-native-keep-awake';
+  14: import {ClientRole} from '../../agora-rn-uikit';
+  15  
+
+netsh\src\components\DeviceConfigure.tsx:
+   2  
+
+  12  import React, {useState, useContext, useEffect, useCallback} from 'react';
+  13: import {RtcContext, ClientRole} from '../../agora-rn-uikit';
+  14  import DeviceContext from './DeviceContext';
+  15: import AgoraRTC from 'agora-rtc-sdk-ng';
+  16  
+
+  65    useEffect(() => {
+  66:     AgoraRTC.onMicrophoneChanged = async (changedDevice: changedDeviceInfo) => {
+  67        // When new audio device is plugged in ,refresh the devices list.
+
+  81      };
+  82:     AgoraRTC.onCameraChanged = async (changedDevice: changedDeviceInfo) => {
+  83        // When new video device is plugged in ,refresh the devices list.
+
+netsh\src\components\DeviceContext.tsx:
+  2  
+
+netsh\src\components\GraphQLProvider.tsx:
+  2  
+
+netsh\src\components\GridVideo.tsx:
+   2  
+
+  22  } from 'react-native';
+  23: import {MinUidContext} from '../../agora-rn-uikit';
+  24: import {MaxUidContext} from '../../agora-rn-uikit';
+  25: import {MaxVideoView} from '../../agora-rn-uikit';
+  26: import {RtcContext} from '../../agora-rn-uikit';
+  27  import chatContext from './ChatContext';
+
+  35  import {NetworkQualityPill} from '../subComponents/NetworkQualityPill';
+  36: import {ImageIcon} from '../../agora-rn-uikit';
+  37  import TextWithTooltip from '../subComponents/TextWithTooltip';
+
+netsh\src\components\HostControlView.tsx:
+  2  
+
+netsh\src\components\JoinPhrase.tsx:
+  2  
+
+netsh\src\components\Navbar.tsx:
+   2  
+
+  21  import mobileAndTabletCheck from '../utils/mobileWebTest';
+  22: import {BtnTemplate} from '../../agora-rn-uikit';
+  23: import {ImageIcon} from '../../agora-rn-uikit';
+  24  import LiveStreamContext from './livestream';
+
+netsh\src\components\Navigation.electron.tsx:
+  2  
+
+netsh\src\components\Navigation.native.tsx:
+  2  
+
+netsh\src\components\Navigation.tsx:
+  2  
+
+netsh\src\components\NetworkQualityContext.tsx:
+   2  
+
+  12  import React, {createContext, useContext, useState} from 'react';
+  13: import {RtcContext} from '../../agora-rn-uikit';
+  14  import useMount from './useMount';
+
+netsh\src\components\OAuth.electron.tsx:
+  2  
+
+netsh\src\components\OAuth.native.tsx:
+  2  
+
+netsh\src\components\OAuth.tsx:
+  2  
+
+netsh\src\components\OAuthConfig.ts:
+  2  
+
+netsh\src\components\ParticipantsView.tsx:
+   2  
+
+  21  } from 'react-native';
+  22: import {PropsContext, ClientRole} from '../../agora-rn-uikit';
+  23  import CopyJoinInfo from '../subComponents/CopyJoinInfo';
+
+netsh\src\components\PinnedVideo.tsx:
+   2  
+
+  22  } from 'react-native';
+  23: import {MinUidConsumer} from '../../agora-rn-uikit';
+  24: import {RtcContext} from '../../agora-rn-uikit';
+  25: import {MaxVideoView} from '../../agora-rn-uikit';
+  26: import {MaxUidConsumer} from '../../agora-rn-uikit';
+  27  import chatContext from './ChatContext';
+
+  30  import FallbackLogo from '../subComponents/FallbackLogo';
+  31: import {ImageIcon} from '../../agora-rn-uikit';
+  32  import ScreenShareNotice from '../subComponents/ScreenShareNotice';
+
+netsh\src\components\Precall.native.tsx:
+   2  
+
+  13  import {View, Text, StyleSheet} from 'react-native';
+  14: import {MaxUidContext} from '../../agora-rn-uikit';
+  15: import {MaxVideoView} from '../../agora-rn-uikit';
+  16  import {
+
+  21    PropsContext,
+  22: } from '../../agora-rn-uikit';
+  23: import {LocalUserContext} from '../../agora-rn-uikit';
+  24: import {RtcContext} from '../../agora-rn-uikit';
+  25  import TextInput from '../atoms/TextInput';
+
+netsh\src\components\Precall.tsx:
+   2  
+
+  23    ClientRole,
+  24: } from '../../agora-rn-uikit';
+  25  import SelectDevice from '../subComponents/SelectDevice';
+
+netsh\src\components\PrivateRoute.tsx:
+  2  
+
+netsh\src\components\Router.electron.ts:
+  2  
+
+netsh\src\components\Router.native.ts:
+  2  
+
+netsh\src\components\Router.ts:
+  2  
+
+netsh\src\components\RTMConfigure.tsx:
+    2  
+
+   15    RtmAttribute,
+   16: } from 'agora-react-native-rtm';
+   17: import {ClientRole, PropsContext} from '../../agora-rn-uikit';
+   18  import ChatContext, {controlMessageEnum} from './ChatContext';
+   19: import {RtcContext} from '../../agora-rn-uikit';
+   20  import {
+
+  520           * b) To be used in future implementations of channel attributes
+  521:          * c) Kindly note the agora-react-native-rtm does not return the attributes with
+  522           *    additional lastUpdateUserId and lastUpdateTs as mentioned in RtmChannelAttribute type
+
+netsh\src\components\RTMEvents.tsx:
+  2  
+
+netsh\src\components\SessionContext.tsx:
+  2  
+
+netsh\src\components\Settings.native.tsx:
+  2  
+
+netsh\src\components\Settings.tsx:
+   2  
+
+  18  import {SidePanelType} from '../subComponents/SidePanelEnum';
+  19: import {BtnTemplate} from '../../agora-rn-uikit';
+  20  
+
+netsh\src\components\SettingsView.tsx:
+  2  
+
+netsh\src\components\Share.tsx:
+   2  
+
+  30  import Toast from '../../react-native-toast-message';
+  31: import {BtnTemplate} from '../../agora-rn-uikit';
+  32  import styles from './styles';
+
+netsh\src\components\StorageContext.tsx:
+  2  
+
+netsh\src\components\StoreToken.tsx:
+  2  
+
+netsh\src\components\styles.ts:
+  2  
+
+netsh\src\components\useMount.ts:
+  2  
+
+netsh\src\components\livestream\LiveStreamContext.tsx:
+  17  } from './Types';
+  18: import {ClientRole} from '../../../agora-rn-uikit';
+  19  import ScreenshareContext from '../../subComponents/screenshare/ScreenshareContext';
+
+netsh\src\components\livestream\views\LiveStreamControls.tsx:
+  2  
+
+netsh\src\components\participants\AllHostParticipants.tsx:
+  1  import React, {useContext} from 'react';
+  2: import {MinUidConsumer, MaxUidConsumer} from '../../../agora-rn-uikit';
+  3  import chatContext from '../ChatContext';
+
+netsh\src\components\participants\MeParticipant.tsx:
+   2  
+
+  13  import {View} from 'react-native';
+  14: import {LocalAudioMute, LocalVideoMute} from '../../../agora-rn-uikit';
+  15: import {LocalUserContext} from '../../../agora-rn-uikit';
+  16  import ParticipantName from './ParticipantName';
+
+netsh\src\components\participants\ParticipantName.tsx:
+  2  
+
+netsh\src\components\participants\RemoteParticipants.tsx:
+  2  
+
+netsh\src\components\participants\ScreenshareParticipants.tsx:
+  2  
+
+netsh\src\components\participants\context\ParticipantContext.tsx:
+   2  
+
+  20    MaxUidContext,
+  21: } from '../../../../agora-rn-uikit';
+  22  
+
+netsh\src\pages\Authenticate.tsx:
+  2  
+
+netsh\src\pages\Create.tsx:
+  2  
+
+netsh\src\pages\Join.tsx:
+  2  
+
+netsh\src\pages\VideoCall.tsx:
+   2  
+
+  19    ChannelProfile,
+  20: } from '../../agora-rn-uikit';
+  21  import Navbar from '../components/Navbar';
+
+netsh\src\subComponents\ChatBubble.tsx:
+  2  
+
+netsh\src\subComponents\ChatContainer.tsx:
+   2  
+
+  24  import ChatContext from '../components/ChatContext';
+  25: import {ImageIcon} from '../../agora-rn-uikit';
+  26  import TextWithTooltip from './TextWithTooltip';
+
+netsh\src\subComponents\ChatInput.tsx:
+  2  
+
+netsh\src\subComponents\Checkbox.native.tsx:
+  2  
+
+netsh\src\subComponents\Checkbox.tsx:
+  2  
+
+netsh\src\subComponents\Clipboard.native.tsx:
+  2  
+
+netsh\src\subComponents\Clipboard.tsx:
+  2  
+
+netsh\src\subComponents\CopyJoinInfo.tsx:
+   2  
+
+  19  import Toast from '../../react-native-toast-message';
+  20: import {BtnTemplate} from '../../agora-rn-uikit';
+  21  
+
+netsh\src\subComponents\Error.tsx:
+  2  
+
+netsh\src\subComponents\FallbackLogo.tsx:
+  2  
+
+netsh\src\subComponents\Illustration.native.tsx:
+  2  
+
+netsh\src\subComponents\Illustration.tsx:
+  2  
+
+netsh\src\subComponents\LayoutEnum.tsx:
+  2  
+
+netsh\src\subComponents\LocalAudioMute.tsx:
+   2  
+
+  12  import React, {useContext} from 'react';
+  13: import {RtcContext} from '../../agora-rn-uikit';
+  14: import {LocalContext} from '../../agora-rn-uikit';
+  15  import {Image, StyleSheet, TouchableOpacity} from 'react-native';
+
+netsh\src\subComponents\LocalVideoMute.tsx:
+   2  
+
+  12  import React, {useContext} from 'react';
+  13: import {RtcContext} from '../../agora-rn-uikit';
+  14: import {LocalContext} from '../../agora-rn-uikit';
+  15  import {Image, StyleSheet, TouchableOpacity} from 'react-native';
+
+netsh\src\subComponents\Logo.tsx:
+  2  
+
+netsh\src\subComponents\LogoutButton.tsx:
+  2  
+
+netsh\src\subComponents\OpenInNativeButton.tsx:
+  2  
+
+netsh\src\subComponents\Platform.electron.ts:
+  2  
+
+netsh\src\subComponents\Platform.native.ts:
+  2  
+
+netsh\src\subComponents\Platform.ts:
+  2  
+
+netsh\src\subComponents\Recording.tsx:
+   2  
+
+  17  import {useParams} from '../components/Router';
+  18: import {PropsContext} from '../../agora-rn-uikit';
+  19  import Toast from '../../react-native-toast-message';
+  20: import {ImageIcon} from '../../agora-rn-uikit';
+  21  
+
+  34  /**
+  35:  * Component to start / stop Agora cloud recording.
+  36   * Sends a control message to all users in the channel over RTM to indicate that
+
+netsh\src\subComponents\RemoteAudioMute.tsx:
+   2  
+
+  17  import {useParams} from '../components/Router';
+  18: import {BtnTemplate} from '../../agora-rn-uikit';
+  19  
+
+netsh\src\subComponents\RemoteEndCall.tsx:
+   2  
+
+  14  import ChatContext, {controlMessageEnum} from '../components/ChatContext';
+  15: import {BtnTemplate} from '../../agora-rn-uikit';
+  16  
+
+netsh\src\subComponents\RemoteVideoMute.tsx:
+   2  
+
+  15  import ColorContext from '../components/ColorContext';
+  16: import {BtnTemplate} from '../../agora-rn-uikit';
+  17  /**
+
+netsh\src\subComponents\ScreenshareButton.tsx:
+   2  
+
+  14  import icons from '../assets/icons';
+  15: import {RtcContext} from '../../agora-rn-uikit';
+  16: import {PropsContext} from '../../agora-rn-uikit';
+  17  import ColorContext from '../components/ColorContext';
+
+  20  import ChatContext, {controlMessageEnum} from '../components/ChatContext';
+  21: import {MinUidContext} from '../../agora-rn-uikit';
+  22: import {MaxUidContext} from '../../agora-rn-uikit';
+  23  import Layout from '../subComponents/LayoutEnum';
+  24: import {ImageIcon} from '../../agora-rn-uikit';
+  25  
+
+netsh\src\subComponents\ScreenShareNotice.tsx:
+  2  
+
+netsh\src\subComponents\SelectDevice.tsx:
+   2  
+
+  13  import {Picker, StyleSheet, View, Text} from 'react-native';
+  14: import {PropsContext, ClientRole} from '../../agora-rn-uikit';
+  15  import DeviceContext from '../components/DeviceContext';
+
+netsh\src\subComponents\SelectOAuth.tsx:
+  2  
+
+netsh\src\subComponents\SidePanelEnum.tsx:
+  2  
+
+netsh\src\subComponents\SwitchCamera.tsx:
+  2  import {StyleSheet} from 'react-native';
+  3: import {RtcContext} from '../../agora-rn-uikit';
+  4: import {BtnTemplate} from '../../agora-rn-uikit';
+  5: import {LocalContext} from '../../agora-rn-uikit';
+  6  
+
+netsh\src\subComponents\TextWithTooltip.native.tsx:
+  2  
+
+netsh\src\subComponents\TextWithTooltip.tsx:
+  2  
+
+netsh\src\subComponents\toastConfig.tsx:
+  2  
+
+netsh\src\subComponents\Watermark.tsx:
+  2  
+
+netsh\src\subComponents\livestream\controls\LocalRaiseHand.tsx:
+   2  
+
+  14  import LiveStreamContext from '../../../components/livestream';
+  15: import {PropsContext} from '../../../../agora-rn-uikit';
+  16: import {BtnTemplate} from '../../../../agora-rn-uikit';
+  17  import icons from '../../../assets/icons';
+
+netsh\src\subComponents\livestream\controls\RemoteLiveStreamApprovedRequestRecall.tsx:
+  2  import ChatContext from '../../../components/ChatContext';
+  3: import {BtnTemplate} from '../../../../agora-rn-uikit';
+  4  import {LiveStreamControlMessageEnum} from '../../../components/livestream';
+
+netsh\src\subComponents\livestream\controls\RemoteLiveStreamRequestApprove.tsx:
+  6    UidInterface,
+  7: } from '../../../../agora-rn-uikit';
+  8  import LiveStreamContext from '../../../components/livestream';
+
+netsh\src\subComponents\livestream\controls\RemoteLiveStreamRequestReject.tsx:
+  6    UidInterface,
+  7: } from '../../../../agora-rn-uikit';
+  8  import LiveStreamContext from '../../../components/livestream';
+
+netsh\src\subComponents\screenshare\ScreenshareButton.tsx:
+   2  
+
+  14  import ColorContext from '../../components/ColorContext';
+  15: import {ImageIcon} from '../../../agora-rn-uikit';
+  16  import ScreenshareContext from './ScreenshareContext';
+
+netsh\src\subComponents\screenshare\ScreenshareConfigure.native.tsx:
+   2  
+
+  19    MaxUidContext,
+  20: } from '../../../agora-rn-uikit/src';
+  21  
+
+netsh\src\subComponents\screenshare\ScreenshareConfigure.tsx:
+  14    MaxUidContext,
+  15: } from '../../../agora-rn-uikit/src';
+  16  import Layout from '../LayoutEnum';
+
+netsh\src\subComponents\screenshare\ScreenshareContext.tsx:
+  2  
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\app.json:
+   2      "name": "App Builder",
+   3:     "repository": "https://github.com/samyak-jain/AgoraBackend",
+   4      "addons": [
+
+  13          "APP_ID": {
+  14:             "description": "An Agora App ID. Here's how to get your app id: https://docs.agora.io/en/Agora%20Platform/token?platform=All%20Platforms#getappid"
+  15          },
+  16          "APP_CERTIFICATE": {
+  17:             "description": "App Certificate is used by Agora to generate tokens for security. Here's how to get your app certificate: https://docs.agora.io/en/Agora%20Platform/token?platform=All%20Platforms#generate-a-token"
+  18          },
+
+  79          "CUSTOMER_ID": {
+  80:             "description": "Required for Cloud Recording. How to get your credentials: https://docs.agora.io/en/faq/restful_authentication",
+  81              "required": false
+
+  83          "CUSTOMER_CERTIFICATE": {
+  84:             "description": "Required for Cloud Recording. How to get your credentials: https://docs.agora.io/en/faq/restful_authentication",
+  85              "required": false
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\CONTRIBUTING.md:
+   1: # Contributing to Agora App Builder Backend
+   2  
+
+  14  
+  15: **If you believe reporting your bug publicly represents a security risk to our users, please contact us at samyak@agora.io**
+  16  
+
+  24  
+  25: Our Docs currently reside at https://appbuilder.agora.io/docs. Please feel free to raise an issue if you find any issues with the documentation.
+  26  It can be something as simple as a spelling/grammatical error or confusing language. 
+
+  29  
+  30: If you're interested in making any content regarding the app builder, whether it is a blog or a youtube video, feel free to reach out to us on community@agora.io.
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\go.mod:
+  1: module github.com/samyak-jain/agora_backend
+  2  
+
+  7  	github.com/99designs/gqlgen v0.13.0
+  8: 	github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src v0.0.0-20200626082954-be54c3f42a5d
+  9  	github.com/coreos/go-oidc v2.2.1+incompatible
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\go.sum:
+  40  github.com/99designs/gqlgen v0.13.0/go.mod h1:NV130r6f4tpRWuAI+zsrSdooO/eWUv+Gyyoi3rEfXIk=
+  41: github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src v0.0.0-20200626082954-be54c3f42a5d h1:cvlhtRuI+p3MT2JrH2eBDE9+yPa4o1L6L/XPMK4rGpw=
+  42: github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src v0.0.0-20200626082954-be54c3f42a5d/go.mod h1:4bXIK0ntDk9CqAXobmomWd7dedbfNv/aaIpmpqqzt+A=
+  43  github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 h1:w+iIsaOQNcT7OZ575w+acHgRric5iCyQh+xv+KJ4HB8=
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\gqlgen.yml:
+  37  autobind:
+  38:   - "github.com/samyak-jain/agora_backend/pkg/models"
+  39  
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\Jenkinsfile:
+  13                      sh "rm -rf slug.tgz || echo 'slug.tgz not present' "
+  14:                     sh "aws s3 cp s3://agora-app-builder-backend-go-builds/dev/slug.tgz . || echo 'slug.tgz not present' "
+  15                      sh "mv slug.tgz slug_${BUILD_NUMBER}_${BUILD_TIMESTAMP}.tgz || echo 'slug.tgz not present' "
+  16:                     sh "aws s3 cp slug_${BUILD_NUMBER}_${BUILD_TIMESTAMP}.tgz s3://agora-app-builder-backend-go-builds/dev/slug_${BUILD_NUMBER}_${BUILD_TIMESTAMP}.tgz || echo 'slug.tgz not present' "
+  17                      sh "rm -rf slug.tgz || echo 'slug.tgz not present' "
+
+  30                      sh "rm -rf slug.tgz || echo 'slug.tgz not present' "
+  31:                     sh "aws s3 cp s3://agora-app-builder-backend-go-builds/staging/slug.tgz . || echo 'slug.tgz not present' "
+  32                      sh "mv slug.tgz slug_${BUILD_NUMBER}_${BUILD_TIMESTAMP}.tgz || echo 'slug.tgz not present' "
+  33:                     sh "aws s3 cp slug_${BUILD_NUMBER}_${BUILD_TIMESTAMP}.tgz s3://agora-app-builder-backend-go-builds/staging/slug_${BUILD_NUMBER}_${BUILD_TIMESTAMP}.tgz || echo 'slug.tgz not present' "
+  34                      sh "rm -rf slug.tgz || echo 'slug.tgz not present' "
+
+  62                  script {
+  63:                     sh "aws s3 cp slug.tgz s3://agora-app-builder-backend-go-builds/dev/slug.tgz"
+  64                  }
+
+  74                  script {
+  75:                     sh "aws s3 cp slug.tgz s3://agora-app-builder-backend-go-builds/staging/slug.tgz"
+  76                  }
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\README.md:
+   1  <p align="center">
+   2:   <img src="https://user-images.githubusercontent.com/10133258/120986333-1b30b500-c79a-11eb-99ba-77120f4c59f1.png" alt="Agora App Builder"/>
+   3  </p>
+   4  
+   5: <h3 align="center">Agora App Builder - Backend</h3>
+   6  
+
+   9    [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+  10:   [![GitHub Issues](https://img.shields.io/github/issues/AgoraIO/app-builder-backend.svg)](https://github.com/AgoraIO/app-builder-backend/issues)
+  11:   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/AgoraIO/app-builder-backend.svg)](https://github.com/AgoraIO/app-builder-backend/pulls)
+  12  
+
+  27  ## 🧐 About <a name = "about"></a>
+  28: Build your own RTE experience instantly! Visit https://appbuilder.agora.io/.
+  29  
+  30  ## 🏁 Getting Started <a name = "getting_started"></a>
+  31: To get started with this project. Refer to the docs here: https://appbuilder.agora.io/docs
+  32  
+
+  35  ### 1 Click Deployment Using Heroku
+  36: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AgoraIO/app-builder-backend)
+  37  
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\.github\workflows\docker-push.yml:
+  28            push: true
+  29:           tags: agoraapp/app-builder-backend:latest
+  30        -
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\cmd\video_conferencing\server.go:
+   1  
+
+  21  
+  22: 	"github.com/samyak-jain/agora_backend/internal/generated"
+  23: 	"github.com/samyak-jain/agora_backend/migrations"
+  24: 	"github.com/samyak-jain/agora_backend/pkg/graph"
+  25: 	"github.com/samyak-jain/agora_backend/pkg/middleware"
+  26: 	"github.com/samyak-jain/agora_backend/pkg/models"
+  27: 	"github.com/samyak-jain/agora_backend/services"
+  28  
+
+  35  
+  36: 	"github.com/samyak-jain/agora_backend/utils"
+  37  
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\internal\generated\generated.go:
+    14  	"github.com/99designs/gqlgen/graphql/introspection"
+    15: 	"github.com/samyak-jain/agora_backend/pkg/models"
+    16  	gqlparser "github.com/vektah/gqlparser/v2"
+
+   835  	fc.Result = res
+   836: 	return ec.marshalNShareResponse2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐShareResponse(ctx, field.Selections, res)
+   837  }
+
+   877  	fc.Result = res
+   878: 	return ec.marshalNUIDMuteState2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐUIDMuteState(ctx, field.Selections, res)
+   879  }
+
+  1003  	fc.Result = res
+  1004: 	return ec.marshalNUser2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐUser(ctx, field.Selections, res)
+  1005  }
+
+  1305  	fc.Result = res
+  1306: 	return ec.marshalNSession2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐSession(ctx, field.Selections, res)
+  1307  }
+
+  1347  	fc.Result = res
+  1348: 	return ec.marshalNShareResponse2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐShareResponse(ctx, field.Selections, res)
+  1349  }
+
+  1382  	fc.Result = res
+  1383: 	return ec.marshalNUser2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐUser(ctx, field.Selections, res)
+  1384  }
+
+  1628  	fc.Result = res
+  1629: 	return ec.marshalNUserCredentials2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐUserCredentials(ctx, field.Selections, res)
+  1630  }
+
+  1663  	fc.Result = res
+  1664: 	return ec.marshalNUserCredentials2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐUserCredentials(ctx, field.Selections, res)
+  1665  }
+
+  1698  	fc.Result = res
+  1699: 	return ec.marshalNPassphrase2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐPassphrase(ctx, field.Selections, res)
+  1700  }
+
+  1800  	fc.Result = res
+  1801: 	return ec.marshalOPSTN2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐPstn(ctx, field.Selections, res)
+  1802  }
+
+  3800  
+  3801: func (ec *executionContext) marshalNPassphrase2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐPassphrase(ctx context.Context, sel ast.SelectionSet, v *models.Passphrase) graphql.Marshaler {
+  3802  	if v == nil {
+
+  3810  
+  3811: func (ec *executionContext) marshalNSession2githubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐSession(ctx context.Context, sel ast.SelectionSet, v models.Session) graphql.Marshaler {
+  3812  	return ec._Session(ctx, sel, &v)
+
+  3814  
+  3815: func (ec *executionContext) marshalNSession2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐSession(ctx context.Context, sel ast.SelectionSet, v *models.Session) graphql.Marshaler {
+  3816  	if v == nil {
+
+  3824  
+  3825: func (ec *executionContext) marshalNShareResponse2githubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐShareResponse(ctx context.Context, sel ast.SelectionSet, v models.ShareResponse) graphql.Marshaler {
+  3826  	return ec._ShareResponse(ctx, sel, &v)
+
+  3828  
+  3829: func (ec *executionContext) marshalNShareResponse2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐShareResponse(ctx context.Context, sel ast.SelectionSet, v *models.ShareResponse) graphql.Marshaler {
+  3830  	if v == nil {
+
+  3853  
+  3854: func (ec *executionContext) marshalNUIDMuteState2githubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐUIDMuteState(ctx context.Context, sel ast.SelectionSet, v models.UIDMuteState) graphql.Marshaler {
+  3855  	return ec._UIDMuteState(ctx, sel, &v)
+
+  3857  
+  3858: func (ec *executionContext) marshalNUIDMuteState2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐUIDMuteState(ctx context.Context, sel ast.SelectionSet, v *models.UIDMuteState) graphql.Marshaler {
+  3859  	if v == nil {
+
+  3867  
+  3868: func (ec *executionContext) marshalNUser2githubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐUser(ctx context.Context, sel ast.SelectionSet, v models.User) graphql.Marshaler {
+  3869  	return ec._User(ctx, sel, &v)
+
+  3871  
+  3872: func (ec *executionContext) marshalNUser2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐUser(ctx context.Context, sel ast.SelectionSet, v *models.User) graphql.Marshaler {
+  3873  	if v == nil {
+
+  3881  
+  3882: func (ec *executionContext) marshalNUserCredentials2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐUserCredentials(ctx context.Context, sel ast.SelectionSet, v *models.UserCredentials) graphql.Marshaler {
+  3883  	if v == nil {
+
+  4144  
+  4145: func (ec *executionContext) marshalOPSTN2ᚖgithubᚗcomᚋsamyakᚑjainᚋagora_backendᚋpkgᚋmodelsᚐPstn(ctx context.Context, sel ast.SelectionSet, v *models.Pstn) graphql.Marshaler {
+  4146  	if v == nil {
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\migrations\init.go:
+   1  
+
+  19  	_ "github.com/golang-migrate/migrate/v4/source/file"
+  20: 	"github.com/samyak-jain/agora_backend/utils"
+  21  	"github.com/spf13/viper"
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\pkg\graph\resolver.go:
+   1  
+
+  15  import (
+  16: 	"github.com/samyak-jain/agora_backend/pkg/models"
+  17: 	"github.com/samyak-jain/agora_backend/utils"
+  18  )
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\pkg\graph\schema.resolvers.go:
+   1  
+
+  24  	"github.com/rs/zerolog/log"
+  25: 	"github.com/samyak-jain/agora_backend/internal/generated"
+  26: 	"github.com/samyak-jain/agora_backend/pkg/middleware"
+  27: 	"github.com/samyak-jain/agora_backend/pkg/models"
+  28: 	"github.com/samyak-jain/agora_backend/services"
+  29: 	"github.com/samyak-jain/agora_backend/utils"
+  30  	"github.com/spf13/viper"
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\pkg\middleware\auth.go:
+   1  
+
+  18  
+  19: 	"github.com/samyak-jain/agora_backend/pkg/models"
+  20: 	"github.com/samyak-jain/agora_backend/utils"
+  21  
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\pkg\models\channel.go:
+  1  
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\pkg\models\db.go:
+  1  
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\pkg\models\user.go:
+  1  
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\services\oauth.go:
+   1  
+
+  26  	"github.com/rs/zerolog/log"
+  27: 	"github.com/samyak-jain/agora_backend/pkg/models"
+  28: 	"github.com/samyak-jain/agora_backend/utils"
+  29  	"github.com/spf13/viper"
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\services\pstn.go:
+    1  
+
+   18  
+   19: 	"github.com/samyak-jain/agora_backend/pkg/models"
+   20: 	"github.com/samyak-jain/agora_backend/utils"
+   21  	"github.com/spf13/viper"
+
+  108  
+  109: type AgoraFields struct {
+  110  	AppID          string  `json:"app"`
+
+  124  	App      string      `json:"app"`
+  125: 	Fields   AgoraFields `json:"fields"`
+  126  	CallData CallData    `json:"callDataPerm"`
+
+  158  			Type: "callStream",
+  159: 			App:  "agora",
+  160: 			Fields: AgoraFields{
+  161  				AppID:          viper.GetString("APP_ID"),
+
+  175  			Type: "callStream",
+  176: 			App:  "agora",
+  177: 			Fields: AgoraFields{
+  178  				AppID:       viper.GetString("APP_ID"),
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\services\utils.go:
+   1  
+
+  21  	"github.com/dgrijalva/jwt-go"
+  22: 	"github.com/samyak-jain/agora_backend/pkg/models"
+  23: 	"github.com/samyak-jain/agora_backend/utils"
+  24  	"github.com/spf13/viper"
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\utils\config.go:
+   1  
+
+  19  
+  20: // AgoraConfig stores the server side config for token generation
+  21: type AgoraConfig struct {
+  22  	AppID          string
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\utils\logging.go:
+  1  
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\utils\randomGen.go:
+  1  
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\utils\recording.go:
+
+  106  
+  107: 	req, err := http.NewRequest("POST", "https://api.agora.io/v1/apps/"+viper.GetString("APP_ID")+"/cloud_recording/acquire",
+  108  		bytes.NewBuffer(requestBody))
+
+  200  
+  201: 	req, err := http.NewRequest("POST", "https://api.agora.io/v1/apps/"+viper.GetString("APP_ID")+"/cloud_recording/resourceid/"+rec.RID+"/mode/mix/start",
+  202  		bytes.NewBuffer(requestBody))
+
+  249  
+  250: 	req, err := http.NewRequest("POST", "https://api.agora.io/v1/apps/"+viper.GetString("APP_ID")+"/cloud_recording/resourceid/"+rid+"/sid/"+sid+"/mode/mix/update",
+  251  		bytes.NewBuffer(requestBody))
+
+  287  
+  288: 	req, err := http.NewRequest("POST", "https://api.agora.io/v1/apps/"+viper.GetString("APP_ID")+"/cloud_recording/resourceid/"+rid+"/sid/"+sid+"/mode/mix/stop",
+  289  		bytes.NewBuffer([]byte(requestBody)))
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\utils\tokens.go:
+   1  
+
+  16  
+  17: 	"github.com/samyak-jain/agora_backend/pkg/models"
+  18: 	"github.com/samyak-jain/agora_backend/utils/rtctoken"
+  19: 	"github.com/samyak-jain/agora_backend/utils/rtmtoken"
+  20  	"github.com/spf13/viper"
+
+  22  
+  23: // GetRtcToken generates token for Agora RTC SDK
+  24  func GetRtcToken(channel string, uid int) (string, error) {
+
+  32  
+  33: // GetRtmToken generates a token for Agora RTM SDK
+  34  func GetRtmToken(user string) (string, error) {
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\utils\rtctoken\RtcTokenBuilder.go:
+   4  	"fmt"
+   5: 	accesstoken "github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src/AccessToken"
+   6  )
+
+netshBackend\AgoraIO-app-builder-backend-1f3e973\utils\rtmtoken\RtmTokenBuilder.go:
+   3  import (
+   4: 	accesstoken "github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src/AccessToken"
+   5  )

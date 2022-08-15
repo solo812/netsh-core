@@ -1,14 +1,4 @@
-/*
-********************************************
- Copyright © 2021 Agora Lab, Inc., all rights reserved.
- AppBuilder and all associated components, source code, APIs, services, and documentation 
- (the “Materials”) are owned by Agora Lab, Inc. and its licensors. The Materials may not be 
- accessed, used, modified, or distributed for any purpose without a license from Agora Lab, Inc.  
- Use without a license or in violation of any license terms and conditions (including use for 
- any purpose competitive to Agora Lab, Inc.’s business) is strictly prohibited. For more 
- information visit https://appbuilder.agora.io. 
-*********************************************
-*/
+
 import React, {useContext} from 'react';
 import {View, TouchableOpacity, Text, StyleSheet, Image} from 'react-native';
 import ColorContext from '../components/ColorContext';
@@ -16,15 +6,15 @@ import google from '../assets/google.png';
 import apple from '../assets/apple.png';
 import slack from '../assets/slack.png';
 import microsoft from '../assets/microsoft.png';
-import Logo from './Logo';
-import hasBrandLogo from '../utils/hasBrandLogo';
+// import Logo from './Logo';
+// import hasBrandLogo from '../utils/hasBrandLogo';
 
 const SelectOAuth = ({onSelectOAuth}) => {
   // Linking.openURL(url);
   const {primaryColor} = useContext(ColorContext);
   return (
     <View style={style.main}>
-      <View style={style.nav}>{hasBrandLogo && <Logo />}</View>
+      <View style={style.nav}></View>
       <View style={style.content}>
         <View style={style.leftContent}>
           <Text style={style.heading}>{$config.APP_NAME}</Text>
